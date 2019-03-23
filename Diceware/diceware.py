@@ -9,7 +9,8 @@ with open("wordlist") as file:
 
 
 while True:
-    key = input("Numbers:")
+    print("Roll 5 dice and enter the numbers")
+    key = input(">>>")
     if(key=="0"):
         break
     if len(key)!=5:
